@@ -1,0 +1,21 @@
+2019-12-16 09:21:23 root         INFO     header add ok!
+2019-12-16 09:21:25 root         ERROR    can not connect host: 192.168.61.149
+2019-12-16 09:21:25 root         ERROR    command can not exec: netstat -na | grep 8405 | grep LISTEN|grep -v grep | wc -l
+2019-12-16 09:21:27 root         ERROR    can not connect host: 192.168.61.149
+2019-12-16 09:21:27 root         ERROR    command can not exec: cat  /root/health.json |grep mysql_passport|awk -F":" '{print $2}'
+2019-12-16 09:21:29 root         ERROR    can not connect host: 192.168.61.149
+2019-12-16 09:21:29 root         ERROR    command can not exec: df -lP | grep -e '/$' | awk '{print $5}'
+2019-12-16 09:21:31 root         ERROR    can not connect host: 192.168.61.149
+2019-12-16 09:21:31 root         ERROR    command can not exec: free -m | sed -n '3p' | awk '{printf("%d%\n", 1319/30793*100)}'
+2019-12-16 09:21:31 root         INFO     192.168.61.149 check finish !
+
+2019-12-16 09:21:33 root         ERROR    can not connect host: 192.168.61.229
+2019-12-16 09:21:33 root         ERROR    command can not exec: netstat -na | grep 8405 | grep LISTEN|grep -v grep | wc -l
+2019-12-16 09:21:35 root         ERROR    can not connect host: 192.168.61.229
+2019-12-16 09:21:35 root         ERROR    command can not exec: cat  /root/health.json |grep mysql_passport|awk -F":" '{print $2}'
+2019-12-16 09:21:37 root         ERROR    can not connect host: 192.168.61.229
+2019-12-16 09:21:37 root         ERROR    command can not exec: df -lP | grep -e '/$' | awk '{print $5}'
+2019-12-16 09:21:39 root         ERROR    can not connect host: 192.168.61.229
+2019-12-16 09:21:39 root         ERROR    command can not exec: free -m | sed -n '3p' | awk '{printf("%d%\n", 1319/30793*100)}'
+2019-12-16 09:21:39 root         INFO     192.168.61.229 check finish !
+

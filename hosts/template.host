@@ -1,0 +1,3 @@
+磁盘空间#df -lP | grep -e '/$' | awk '{print $5}'#<85%
+已用内存#free -m | sed -n '3p' | awk '{printf("%d%\n``", 1319/30793*100)}'#<80%
+swap使用情况#free -m | awk '{if(NR==4){print $3}}'#=0
