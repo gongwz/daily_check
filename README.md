@@ -10,7 +10,7 @@
 - 可对采集的结果进行分析比对   
 
 
-![img](https://wxt.sinaimg.cn/thumb300/006zTkUSgy1g9ybe8oj1pj31ca0du0wy.jpg?tags=%5B%5D)
+![img](https://wx2.sinaimg.cn/mw1024/006zTkUSgy1g9ybe8oj1pj31ca0du0wy.jpg)
 
 
 > Author: 卫振 （weizhen）      
